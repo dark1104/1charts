@@ -1,50 +1,41 @@
-Traffic Overview
-Total traffic volume (bytes/packets)
-Top talkers (source/destination IPs)
-Top protocols used (TCP, UDP, ICMP, etc.)
-Traffic trends over time (hourly/daily/weekly)
+import clickhouse_connect
 
+# Replace with your server's connection details
+HOST = 'localhost'
+PORT = 8123  # Or 8443 for HTTPS
+USER = 'default'
+PASSWORD = 'YOUR_PASSWORD'
 
-Flow Metrics
-Number of flows per second
-Average flow duration
-Flow size distribution
-Flow direction (inbound vs outbound)
+try:
+    # Connect to the ClickHouse server
+    client = clickhouse_connect.get_client(
+        host=HOST,
+        port=PORT,
+        username=USER,
+        password=PASSWORD
+    )
 
+    # 1. Create a new user with a secure password
+    print("Creating user 'new_user'...")
+    client.command("CREATE USER new_user IDENTIFIED WITH sha256_password BY 'new_password'")
 
-Application & Port Insights
-Top applications (based on port/protocol mapping)
-Top destination ports
-Suspicious or uncommon ports used
-Port usage trends
+    # 2. Grant permissions to the new user.
+    # This example grants all permissions, but you should limit privileges
+    # in a production environment.
+    print("Granting all privileges to 'new_user'...")
+    client.command("GRANT ALL ON *.* TO new_user")
 
+    # 3. Show the grants for the new user to confirm
+    result = client.query("SHOW GRANTS FOR new_user")
+    print("\nGrants for 'new_user':")
+    for row in result.result_rows:
+        print(row[0])
 
-Geolocation Insights
-Top countries by traffic volume
-Geolocation of source/destination IPs
-Traffic heatmap by region
+    print("\nUser 'new_user' created successfully.")
 
+except Exception as e:
+    print(f"An error occurred: {e}")
 
-Security & Anomaly Detection
-Unusual traffic spikes
-Flows with known malicious IPs (via threat intelligence feeds)
-Protocol anomalies (e.g., DNS over non-standard ports)
-Port scanning or DDoS indicators
-
-
-Performance Metrics
-Latency estimates (if derived from flow timing)
-Packet loss indicators (if available)
-Jitter (for VoIP flows)
-
-
-Device & Interface Stats
-Top interfaces by traffic
-Interface utilization
-Device-level flow statistic
-
-
-Custom Filters & Drilldowns
-Traffic by VLAN, subnet, or AS number
-User-defined filters (e.g., by IP range, protocol, time window)
-Exportable flow records for forensic analysis
+finally:
+    # Always close the client connection
+    client.close()
