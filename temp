@@ -1,41 +1,9 @@
-import clickhouse_connect
+.dashboard {
+    background-color: #121212 !important;
+    color: #e0e0e0;
+}
 
-# Replace with your server's connection details
-HOST = 'localhost'
-PORT = 8123  # Or 8443 for HTTPS
-USER = 'default'
-PASSWORD = 'YOUR_PASSWORD'
-
-try:
-    # Connect to the ClickHouse server
-    client = clickhouse_connect.get_client(
-        host=HOST,
-        port=PORT,
-        username=USER,
-        password=PASSWORD
-    )
-
-    # 1. Create a new user with a secure password
-    print("Creating user 'new_user'...")
-    client.command("CREATE USER new_user IDENTIFIED WITH sha256_password BY 'new_password'")
-
-    # 2. Grant permissions to the new user.
-    # This example grants all permissions, but you should limit privileges
-    # in a production environment.
-    print("Granting all privileges to 'new_user'...")
-    client.command("GRANT ALL ON *.* TO new_user")
-
-    # 3. Show the grants for the new user to confirm
-    result = client.query("SHOW GRANTS FOR new_user")
-    print("\nGrants for 'new_user':")
-    for row in result.result_rows:
-        print(row[0])
-
-    print("\nUser 'new_user' created successfully.")
-
-except Exception as e:
-    print(f"An error occurred: {e}")
-
-finally:
-    # Always close the client connection
-    client.close()
+.chart-container {
+    background-color: #1e1e1e !important;
+    border-radius: 6px;
+}
