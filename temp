@@ -7,3 +7,43 @@
     background-color: #1e1e1e !important;
     border-radius: 6px;
 }
+
+
+
+
+
+/* Make the overall dashboard black */
+.dashboard {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* Chart containers (the area behind charts) → white */
+.chart-container {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+/* Filters, headers, etc. stay dark */
+.filter-box, .dashboard-header, .dashboard-component {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* Optional: remove unwanted gray spacing between components */
+.grid-container {
+    background-color: #000000 !important;
+}
+
+/* Tooltip / popups readable */
+.popover, .tooltip {
+    background-color: #222 !important;
+    color: #fff !important;
+}
+
+/* Optional: make borders subtle around white areas */
+.chart-container {
+    border: 1px solid #333 !important;
+}
