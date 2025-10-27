@@ -2,3 +2,46 @@ the below is some of the data which is generated
 {"direction_reason":"TCP_STATE","date":"2025-10-16","destination_ipam_network_name":"DMZ","last_seen":"2025-03-30 08:00:10.071","data_version":3,"source_geo_longitude":139.6499,"destination_geo_asn":8075,"sampler_address":"192.168.206.175","destination_dns":"chaney.com","destination_ipam_owner":"Debbie Keller","source_ip":"133.130.209.18","destination_geo_country":"United States","time_inserted_ns":1760604034981000000,"protocol":17,"destination_ip":"13.107.25.112","destination_geo_asn_organization":"MICROSOFT-CORP-MSN-AS-BLOCK","destination_ipam_location":"São Paulo","tcp_flags":0,"flow_id":"558c80cf-79e5-4d4c-bc7f-e630084b8a33","server_ip":"13.107.25.112","direction_confidence":0.6343296072699922,"total_bytes":873,"client_ip":"133.130.209.18","destination_ipam_network_range":"13.107.25.0/24","source_ipam_subnet":"133.130.209.0","custom_fields":{"profile_name":"database_traffic","device_type":"workstation"},"source_ipam_environment":"Prod","destination_ipam_department":"Database","source_geo_asn_organization":"NTT PC Communications, Inc.","observation_domain_id":"79","flow_key":"133.130.209.18:53680-13.107.25.112:5432-17","destination_ipam_description":"Workstation","source_ipam_owner":"Stacy Turner","source_ipam_vlan":"218","source_ipam_network_range":"133.130.209.0/24","server_port":5432,"processing_latency":24,"time_received_ns":1743321610071000000,"source_dns":"white.com","first_seen":"2025-03-30 08:00:10.000","source_geo_country_code":"JP","destination_port":5432,"ingestion_time":"2025-10-16 08:40:34.126","source_geo_country":"Japan","source_geo_latitude":35.4337,"reverse_bytes":8373,"exporter_id":"exporter-5","destination_geo_latitude":37.751,"duration":0.071,"client_port":53680,"source_ipam_department":"Database","destination_ipam_criticality":"Medium","destination_geo_country_code":"US","source_ipam_criticality":"Critical","source_port":53680,"tos":54,"source_geo_asn":2514,"destination_ipam_vlan":"67","total_packets":1,"source_ipam_network_name":"SecureZone","forward_bytes":873,"enrichment_timestamp":"2025-10-16 08:40:34.126","destination_geo_longitude":-97.822,"flow_format":"sFlow","sequence_number":932204,"application":"postgres","source_ipam_description":"Workstation","flow_direction":"SERVER_TO_CLIENT","reverse_packets":39,"source_geo_city":"Yokohama","destination_ipam_subnet":"13.107.25.0","source_ipam_location":"London","destination_ipam_environment":"Dev","template_id":"295","customer_id":"customer-486","forward_packets":1}
 {"direction_reason":"IP_CLASS","date":"2025-10-16","destination_ipam_network_name":"OfficeNet","last_seen":"2025-03-30 08:00:10.111","data_version":1,"source_geo_longitude":-97.822,"destination_geo_asn":4804,"sampler_address":"192.168.72.105","destination_dns":"cooper.com","destination_ipam_owner":"Kristine Hogan","source_ip":"8.8.8.47","destination_geo_country":"Australia","time_inserted_ns":1760604034982000000,"protocol":132,"destination_ip":"203.2.75.47","destination_geo_asn_organization":"Microplex PTY LTD","destination_ipam_location":"Mumbai","tcp_flags":0,"flow_id":"01131413-f0de-4ee8-afe2-4bbcdcf019cc","server_ip":"203.2.75.47","direction_confidence":0.2180051146166626,"total_bytes":11075,"client_ip":"8.8.8.47","destination_ipam_network_range":"203.2.75.0/24","source_ipam_subnet":"8.8.8.0","custom_fields":{"profile_name":"database_traffic","device_type":"server"},"source_ipam_environment":"Prod","destination_ipam_department":"IT","source_geo_asn_organization":"GOOGLE","observation_domain_id":"48","flow_key":"8.8.8.47:35562-203.2.75.47:6379-132","destination_ipam_description":"Workstation","source_ipam_owner":"Linda Donovan","source_ipam_vlan":"73","source_ipam_network_range":"8.8.8.0/24","server_port":6379,"processing_latency":25,"time_received_ns":1743321610111000000,"source_dns":"fleming.com","first_seen":"2025-03-30 08:00:10.000","source_geo_country_code":"US","destination_port":6379,"ingestion_time":"2025-10-16 08:40:34.127","source_geo_country":"United States","source_geo_latitude":37.751,"reverse_bytes":1841,"exporter_id":"exporter-7","destination_geo_latitude":-33.494,"duration":0.111,"client_port":35562,"source_ipam_department":"Messaging","destination_ipam_criticality":"Medium","destination_geo_country_code":"AU","source_ipam_criticality":"Medium","source_port":35562,"tos":41,"source_geo_asn":15169,"destination_ipam_vlan":"31","total_packets":11,"source_ipam_network_name":"SecureZone","forward_bytes":11075,"enrichment_timestamp":"2025-10-16 08:40:34.127","destination_geo_longitude":143.2104,"flow_format":"NetFlow","sequence_number":145608,"application":"unknown","source_ipam_description":"Workstation","flow_direction":"SERVER_TO_CLIENT","reverse_packets":83,"destination_ipam_subnet":"203.2.75.0","source_ipam_location":"Berlin","destination_ipam_environment":"DR","template_id":"390","customer_id":"customer-958","forward_packets":11}
 {"direction_reason":"TCP_STATE","date":"2025-10-16","destination_ipam_network_name":"CorpNet","last_seen":"2025-03-30 08:00:10.074","data_version":3,"source_geo_longitude":0,"destination_geo_asn":0,"sampler_address":"192.168.101.152","destination_dns":"wright.net","destination_ipam_owner":"Victoria Hurley","source_ip":"91.198.174.125","destination_geo_country":"NA","time_inserted_ns":1760604034982000000,"protocol":17,"destination_ip":"203.0.113.34","destination_geo_asn_organization":"NA","destination_ipam_location":"Tokyo","tcp_flags":0,"flow_id":"16d6912d-1014-4f91-80e0-6aea85a39525","server_ip":"203.0.113.34","direction_confidence":0.3557008200067452,"total_bytes":6249,"client_ip":"91.198.174.125","destination_geo_city":"NA","destination_ipam_network_range":"203.0.113.0/24","source_ipam_subnet":"91.198.174.0","custom_fields":{"profile_name":"database_traffic","device_type":"workstation"},"source_ipam_environment":"DR","destination_ipam_department":"Security","source_geo_asn_organization":"NA","observation_domain_id":"17","flow_key":"91.198.174.125:46947-203.0.113.34:5432-17","destination_ipam_description":"Workstation","source_ipam_owner":"Tracy Wilson","source_ipam_vlan":"156","source_ipam_network_range":"91.198.174.0/24","server_port":5432,"processing_latency":19,"time_received_ns":1743321610074000000,"source_dns":"thompson.biz","first_seen":"2025-03-30 08:00:10.000","source_geo_country_code":"NA","destination_port":5432,"ingestion_time":"2025-10-16 08:40:34.128","source_geo_country":"NA","source_geo_latitude":0,"reverse_bytes":129,"exporter_id":"exporter-3","destination_geo_latitude":0,"duration":0.074,"client_port":46947,"source_ipam_department":"Database","destination_ipam_criticality":"High","destination_geo_country_code":"NA","source_ipam_criticality":"High","source_port":46947,"tos":139,"source_geo_asn":0,"destination_ipam_vlan":"70","total_packets":97,"source_ipam_network_name":"DMZ","forward_bytes":6249,"enrichment_timestamp":"2025-10-16 08:40:34.128","destination_geo_longitude":0,"flow_format":"IPFIX","sequence_number":508340,"application":"postgres","source_ipam_description":"Workstation","flow_direction":"CLIENT_TO_SERVER","reverse_packets":55,"source_geo_city":"NA","destination_ipam_subnet":"203.0.113.0","source_ipam_location":"Tokyo","destination_ipam_environment":"Prod","template_id":"327","customer_id":"customer-491","forward_packets":97}
+
+
+
+
+
+
+
+/* ===== Dashboard Background ===== */
+.dashboard {
+    background-color: #f4f4f4 !important; /* light grey background */
+    padding: 10px !important;
+}
+
+/* ===== Chart Card Styling ===== */
+.dashboard-component-chart-holder {
+    background-color: #ffffff;            /* white chart background */
+    border: 1px solid #bfbfbf;            /* subtle grey border */
+    border-radius: 8px;                   /* smooth corners */
+    padding: 10px;                        /* space inside the card */
+    margin: 10px;                         /* space between charts */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06); /* soft shadow for depth */
+}
+
+/* ===== Horizontal Filter Bar Styling ===== */
+[data-test="filter-bar"], 
+.dashboard-component[data-test="filter_bar"] {
+    background-color: #ffffff;             /* white filter bar */
+    border: 1px solid #bfbfbf;             /* same border style as charts */
+    border-radius: 8px;                    /* rounded edges */
+    padding: 8px 12px;                     /* space inside bar */
+    margin-bottom: 12px;                   /* gap before charts start */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05); /* light shadow for consistency */
+}
+
+/* Optional: make filter inputs look cleaner */
+.filter-bar-item {
+    margin-right: 8px;
+}
+
+/* ===== Consistent Grid Padding ===== */
+.grid-container {
+    padding: 8px !important;
+}
