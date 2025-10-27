@@ -46,3 +46,30 @@
 .grid-container {
     padding: 8px !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the horizontal filter bar */
+[data-test="filter-bar"] {
+    background-color: #ffffff;     /* white background */
+    border: 1px solid #ccc;        /* light grey border */
+    border-radius: 8px;            /* smooth corners */
+    padding: 8px 12px;             /* space inside the bar */
+    margin-bottom: 12px;           /* gap below before charts */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05); /* subtle shadow */
+}
+
+/* Optional: dashboard background for contrast */
+.dashboard {
+    background-color: #f4f4f4 !important;
+}
