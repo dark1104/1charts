@@ -18,3 +18,31 @@
 .chart-container {
     border: 1px solid #333 !important;
 }
+
+
+
+
+
+
+
+
+
+/* ---- Dashboard background ---- */
+.dashboard {
+    background-color: #f4f4f4 !important; /* light grey background */
+}
+
+/* ---- Each chart box/card ---- */
+.dashboard-component-chart-holder {
+    background-color: #ffffff;            /* white background for each chart */
+    border: 1px solid #bfbfbf;            /* visible but not harsh border */
+    border-radius: 8px;                   /* rounded corners */
+    padding: 10px;                        /* inner padding */
+    margin: 10px;                         /* gap between charts */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06); /* subtle shadow for depth */
+}
+
+/* Optional: consistent spacing in layout grid */
+.grid-container {
+    padding: 8px !important;
+}
