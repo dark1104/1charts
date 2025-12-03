@@ -1,75 +1,53 @@
-.dashboard-component-chart-holder {
-    border: 1px solid #ccc;   /* grey border around each chart */
-    border-radius: 6px;       /* optional, smooth corners */
-    padding: 8px;             /* spacing inside chart box */
-    margin: 6px;              /* spacing between charts */
-    background-color: #fff;   /* keeps background clean */
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* optional subtle shadow */
-}    background-color: #000000 !important;
-}
-
-/* Tooltip / popups readable */
-.popover, .tooltip {
-    background-color: #222 !important;
-    color: #fff !important;
-}
-
-/* Optional: make borders subtle around white areas */
-.chart-container {
-    border: 1px solid #333 !important;
-}
+Car rental system
+Role based Controls
+Admin (Add/Delete & Manage Vehicles, Keeps record of the vehicles and their rides for the last 7 days minimum),                                                                                                                        
+Driver (Accept/Deny/Cancel Rides. Availability can be marked Yes or No)
+User (Book/Cancel Rides. Update the destination. Reviews/Ratings option)
+Different profiles information should be shown based on the role.
+Registration and login for different roles.
+Print the journey details to the user at the end of trip.
+Users should have the provision to see & print the last 7 days trip.
+Technologies Used:
+Frontend: HTML5, CSS3
+Backend: Python 
+Database: MySQL / AWS RDS
+Authentication: JWT
+Cloud Services: AWS Elastic Beanstalk, AWS S
 
 
-
-
-
-
-
-
-
-/* ---- Dashboard background ---- */
-.dashboard {
-    background-color: #f4f4f4 !important; /* light grey background */
-}
-
-/* ---- Each chart box/card ---- */
-.dashboard-component-chart-holder {
-    background-color: #ffffff;            /* white background for each chart */
-    border: 1px solid #bfbfbf;            /* visible but not harsh border */
-    border-radius: 8px;                   /* rounded corners */
-    padding: 10px;                        /* inner padding */
-    margin: 10px;                         /* gap between charts */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06); /* subtle shadow for depth */
-}
-
-/* Optional: consistent spacing in layout grid */
-.grid-container {
-    padding: 8px !important;
-}
+FOOD ORDERING SYSTEM 
+ 
+Problem Statement: 
+People often face difficulties in ordering food quickly and managing their orders efficiently. The goal of this project is to build a web-based Food Ordering System using Python (Flask) that allows users to browse menus, place orders, and track their order status easily. The system will have role based controls.
+ 
+Role based Controls
+Admin (Add/Delete & Manage inventory),                                                                                                                        
+Delivery agent (Accept/Deny/Cancel booking. 
+User (order / cancel food. Reviews/Ratings option)
+ Technologies Used: 
+ o Frontend: HTML5, CSS3
+ o Backend: Python (Flask) 
+ o Database: MySQL / AWS RDS
+ o Authentication: JWT
+ o Cloud Services: AWS Elastic Beanstalk, AWS S3
+ o API: REST API using Flask-RESTful
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* Style the horizontal filter bar */
-[data-test="filter-bar"] {
-    background-color: #ffffff;     /* white background */
-    border: 1px solid #ccc;        /* light grey border */
-    border-radius: 8px;            /* smooth corners */
-    padding: 8px 12px;             /* space inside the bar */
-    margin-bottom: 12px;           /* gap below before charts */
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05); /* subtle shadow */
-}
-
-/* Optional: dashboard background for contrast */
-.dashboard {
-    background-color: #f4f4f4 !important;
-}
+FOOD ORDERING SYSTEM 
+ 
+Problem Statement: 
+People often face difficulties in ordering food quickly and managing their orders efficiently. The goal of this project is to build a web-based Food Ordering System using Python (Flask) that allows users to browse menus, place orders, and track their order status easily. The system will have role based controls.
+ 
+Role based Controls
+Admin (Add/Delete & Manage inventory),                                                                                                                        
+Delivery agent (Accept/Deny/Cancel booking. 
+User (order / cancel food. Reviews/Ratings option)
+ Technologies Used: 
+ o Frontend: HTML5, CSS3
+ o Backend: Python (Flask) 
+ o Database: MySQL / AWS RDS
+ o Authentication: JWT
+ o Cloud Services: AWS Elastic Beanstalk, AWS S3
+ o API: REST API using Flask-RESTful
+ 
